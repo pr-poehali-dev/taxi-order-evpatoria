@@ -98,35 +98,6 @@ const Index = () => {
               <p className="text-xl text-muted-foreground mb-8">
                 Надёжный сервис с заботой о каждом пассажире. Работаем круглосуточно для вашего комфорта.
               </p>
-              
-              <Card className="shadow-xl animate-scale-in">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Заказать такси</h3>
-                  <div className="space-y-4">
-                    <div className="relative">
-                      <Icon name="MapPin" className="absolute left-3 top-3 text-primary" size={20} />
-                      <Input
-                        placeholder="Откуда"
-                        value={from}
-                        onChange={(e) => setFrom(e.target.value)}
-                        className="pl-12"
-                      />
-                    </div>
-                    <div className="relative">
-                      <Icon name="MapPin" className="absolute left-3 top-3 text-muted-foreground" size={20} />
-                      <Input
-                        placeholder="Куда"
-                        value={to}
-                        onChange={(e) => setTo(e.target.value)}
-                        className="pl-12"
-                      />
-                    </div>
-                    <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 text-lg font-semibold">
-                      Рассчитать стоимость
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
 
             <div className="relative animate-fade-in" style={{ animationDelay: '0.2s' }}>
