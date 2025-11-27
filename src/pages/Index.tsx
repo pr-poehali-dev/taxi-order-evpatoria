@@ -170,62 +170,30 @@ const Index = () => {
 
       <section id="contacts" className="py-20 bg-accent/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-4">Контакты</h2>
-            <p className="text-center text-muted-foreground mb-12 text-lg">Работаем круглосуточно, без выходных</p>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-4">Контакты</h2>
+            <p className="text-muted-foreground mb-12 text-lg">Работаем круглосуточно, без выходных</p>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              <Card className="animate-fade-in">
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <Icon name="Phone" className="text-primary" size={24} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Телефон</h3>
-                        <a href="tel:+79787654321" className="text-primary hover:underline text-lg">
-                          +7 (978) 765-43-21
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <Icon name="MapPin" className="text-primary" size={24} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Адрес офиса</h3>
-                        <p className="text-muted-foreground">г. Евпатория, ул. Фрунзе, 15</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <Icon name="Clock" className="text-primary" size={24} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Режим работы</h3>
-                        <p className="text-muted-foreground">Круглосуточно, 24/7</p>
-                      </div>
-                    </div>
+            <Card className="animate-fade-in max-w-md mx-auto">
+              <CardContent className="p-8">
+                <div className="flex items-center justify-center gap-4">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Icon name="MessageCircle" className="text-primary" size={32} />
                   </div>
-                </CardContent>
-              </Card>
-
-              <Card className="overflow-hidden animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                <CardContent className="p-0 h-full">
-                  <iframe 
-                    src="https://yandex.ru/map-widget/v1/?ll=33.366669%2C45.190556&z=13&l=map&pt=33.366669,45.190556,pm2rdm"
-                    width="100%" 
-                    height="100%" 
-                    frameBorder="0"
-                    className="min-h-[300px]"
-                    title="Карта Евпатории"
-                  ></iframe>
-                </CardContent>
-              </Card>
-            </div>
+                  <div className="text-left">
+                    <h3 className="font-semibold mb-1 text-lg">Telegram</h3>
+                    <a 
+                      href="https://t.me/yourusername" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline text-lg"
+                    >
+                      Написать в Telegram
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
