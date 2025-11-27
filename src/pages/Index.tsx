@@ -47,9 +47,9 @@ const Index = () => {
             <a href="#about" className="text-foreground hover:text-primary transition-colors">О нас</a>
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </div>
-          <a href="tel:+79787654321" className="flex items-center gap-2 text-primary font-semibold">
+          <a href="tel:+79782322225" className="flex items-center gap-2 text-primary font-semibold">
             <Icon name="Phone" size={20} />
-            +7 (978) 765-43-21
+            +7 (978) 232-22-25
           </a>
         </div>
       </nav>
