@@ -77,13 +77,13 @@ const Index = () => {
                     </div>
                   </div>
                   <a 
-                    href="https://play.google.com" 
+                    href="https://www.rustore.ru/catalog/app/uptaxi.all" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
                   >
                     <Icon name="Download" size={20} />
-                    Google Play
+                    RuStore
                   </a>
                 </div>
               </CardContent>
