@@ -183,12 +183,12 @@ const Index = () => {
                   <div className="text-left">
                     <h3 className="font-semibold mb-1 text-lg">Telegram</h3>
                     <a 
-                      href="https://t.me/yourusername" 
+                      href="https://t.me/zarya_taxi" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline text-lg"
                     >
-                      Написать в Telegram
+                      @zarya_taxi
                     </a>
                   </div>
                 </div>
