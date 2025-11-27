@@ -82,8 +82,8 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
                   >
-                    <Icon name="Download" size={20} />
-                    RuStore
+                    <Icon name="Store" size={20} />
+                    Скачать приложение
                   </a>
                 </div>
               </CardContent>
