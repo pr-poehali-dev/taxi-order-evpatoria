@@ -56,7 +56,7 @@ const Index = () => {
 
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-8 grid md:grid-cols-2 gap-4 animate-fade-in">
             <Card className="bg-gradient-to-r from-primary/10 to-orange-100 border-primary/20">
               <CardContent className="p-4">
                 <div className="flex items-center justify-between flex-wrap gap-4">
@@ -78,6 +78,20 @@ const Index = () => {
                     <Icon name="Store" size={20} />
                     Скачать приложение
                   </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-r from-green-50 to-green-100 border-green-200">
+              <CardContent className="p-4 flex items-center justify-center h-full">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-xl bg-green-500 flex items-center justify-center">
+                    <Icon name="Phone" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg">Такси еще дешевле</h3>
+                    <p className="text-sm text-muted-foreground">от 90 рублей</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
