@@ -63,6 +63,33 @@ const Index = () => {
 
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-6xl">
+          <div className="mb-8 animate-fade-in">
+            <Card className="bg-gradient-to-r from-primary/10 to-orange-100 border-primary/20">
+              <CardContent className="p-4">
+                <div className="flex items-center justify-between flex-wrap gap-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
+                      <Icon name="Smartphone" className="text-white" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-lg">Скачайте наше приложение</h3>
+                      <p className="text-sm text-muted-foreground">Заказывайте такси ещё быстрее</p>
+                    </div>
+                  </div>
+                  <a 
+                    href="https://play.google.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
+                  >
+                    <Icon name="Download" size={20} />
+                    Google Play
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6 leading-tight">
