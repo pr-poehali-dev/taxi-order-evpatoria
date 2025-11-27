@@ -72,8 +72,8 @@ const Index = () => {
                       <Icon name="Smartphone" className="text-white" size={24} />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg">Скачайте наше приложение</h3>
-                      <p className="text-sm text-muted-foreground">Заказывайте такси ещё быстрее</p>
+                      <h3 className="font-semibold text-lg">С приложения дешевле</h3>
+                      <p className="text-sm text-muted-foreground">Поездки от 90 ₽</p>
                     </div>
                   </div>
                   <a 
